@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://major:major@cluster0.5bbwk.mongodb.net/major?retryWrites=true&w=majority",
+  "jsonWebTokenSecret": "helloWorld"
+}
