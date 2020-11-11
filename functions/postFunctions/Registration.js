@@ -44,7 +44,8 @@ async function uniqueEmail() {
 
   axios.get(endpoint).then(resp => {
 let data = resp.data
-    console.log(data.map(user=>user.email));
+  // data.map(user=>user.email.find("oshiesam@gmail.com"));
+  console.log(data)
 });
 }
 
